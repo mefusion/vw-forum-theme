@@ -1,0 +1,38 @@
+/* ==UserStyle==
+@name           VimeWorld Forum Custom Theme
+@namespace      github.com/mefusion
+@version        1.0.0
+@description    Задай собственный цвет для форума!
+@author         FusionPrime7
+==/UserStyle== */
+
+@-moz-document domain("forum.vimeworld.com") {
+    :root {
+    /* 51, 27, 96 */
+        
+    /* Подсветка активного ввода/выбора */
+    --theme-active_input_border: 81, 42, 156;
+        
+    /* Цвет кнопок */
+    --theme-important_button: 51, 27, 96;
+        
+    /* Цвет иконок на главной странице */
+    --theme-item_status: 51, 27, 96;
+        
+    /* Цвет шапки с кнопками (Сайт, сообщество, активность и т.д.) */ 
+    --theme-main_nav: 51, 27, 96;
+        
+    /* Цвет фона сайта */
+    --theme-page_background: 18, 18, 18;
+        
+    /* Цвета кнопок (вступление в клуб) */
+    --theme-primary_button: 51, 27, 96;
+        
+    /* Цвет шапок подфорумов (VimeWorld, сервер MiniGames, сервера CivCraft и т.д.) */
+    --theme-section_title: 51, 27, 96;
+        
+    /* Цвет виджетов (последние статусы, лучшие авторы, последние темы и т.д.) */
+    --theme-widget_title_bar: 51, 27, 96;
+        
+    }
+}
